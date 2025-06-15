@@ -36,11 +36,14 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body class="bg-slate-100">
   <div id="root"></div>
-  <script type="module" src="./index.tsx"></script>
-<script type="module" src="/index.tsx"></script>
+  <!-- 
+    Load index.tsx via esm.sh to transpile it from your GitHub repo.
+    Adjust 'dsurfer', 'TimeTrack', and 'main' if your GitHub username, 
+    repository name, or branch are different.
+  -->
+  <script type="module" src="https://esm.sh/gh/dsurfer/TimeTrack@main/index.tsx"></script>
 </body>
 </html>
