@@ -1,0 +1,6 @@
+
+{
+  "name": "TimeTrack",
+  "description": "A minimalist and colorful time tracking tool for tasks, designed for mobile devices. It uses local browser storage for data persistence and allows data export.",
+  "requestFramePermissions": []
+}
